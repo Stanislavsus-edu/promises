@@ -1,6 +1,5 @@
 export default class GameSaving {
   constructor(data) {
-    console.log(typeOF data);
     this.id = data.id;
     this.created = data.created;
     this.userInfo = {
